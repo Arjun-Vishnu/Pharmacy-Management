@@ -1,0 +1,78 @@
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 0 16px;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 -8px;
+}
+
+.col-12 {
+  flex: 0 0 100%;
+  max-width: 100%;
+  padding: 0 8px;
+}
+
+.col-8 {
+  flex: 0 0 66.666667%;
+  max-width: 66.666667%;
+  padding: 0 8px;
+}
+
+.offset-2 {
+  margin-left: 16.666667%;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.my-4 {
+  margin-top: 16px;
+  margin-bottom: 32px;
+}
+
+.mb-2 {
+  margin-bottom: 8px;
+}
+
+.btn {
+  display: flex;
+  padding: 2px 4px;
+  font-size: 16px;
+  font-weight: 600;
+  border-radius: 4px;
+  text-decoration: none;
+  text-align: center;
+  cursor: pointer;
+}
+
+.btn-info {
+  background-color: #17a2b8;
+  color: #fff;
+  border: none;
+}
+
+.btn-primary {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+}
+
+.float-right {
+  float: right;
+}
+
+.card {
+  background-color: #fff;
+  border: 1px solid #dee2e6;
+  border-radius: 4px;
+  margin-bottom: 16px;
+}
+
+.card-body {
+  padding: 16px;
+}
