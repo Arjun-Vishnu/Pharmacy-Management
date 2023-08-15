@@ -1,6 +1,7 @@
 import React from 'react';
 import './App.css';
 import Navbar from './Components/Navbar';
+import checkAuth from "../src/Components/store/checkAuth";
 function App() {
   return (
     <div>
@@ -20,4 +21,4 @@ function App() {
 
 }
 
-export default App;
+export default checkAuth(App);
